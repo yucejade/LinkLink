@@ -138,9 +138,16 @@
 		4A1EB324180958F400C350A2 /* vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EB323180958F400C350A2 /* vec3.c */; };
 		4A1EB326180958F400C350A2 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EB325180958F400C350A2 /* vec4.c */; };
 		4A1EB32B180958F400C350A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EB32A180958F400C350A2 /* main.m */; };
-		4A1EB32E180958F400C350A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EB32D180958F400C350A2 /* AppDelegate.m */; };
-		4A1EB331180958F500C350A2 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EB330180958F500C350A2 /* HelloWorldLayer.m */; };
-		4A1EB334180958F500C350A2 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EB333180958F500C350A2 /* IntroLayer.m */; };
+		4AEAC339180976A90039D3D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC326180976A90039D3D8 /* AppDelegate.m */; };
+		4AEAC33A180976A90039D3D8 /* BrickEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC328180976A90039D3D8 /* BrickEntity.m */; };
+		4AEAC33B180976A90039D3D8 /* BrickLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC32A180976A90039D3D8 /* BrickLayer.m */; };
+		4AEAC33C180976A90039D3D8 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC32C180976A90039D3D8 /* GameLayer.m */; };
+		4AEAC33D180976A90039D3D8 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC32E180976A90039D3D8 /* GameScene.m */; };
+		4AEAC33E180976A90039D3D8 /* Linker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC330180976A90039D3D8 /* Linker.m */; };
+		4AEAC33F180976A90039D3D8 /* LoadingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC332180976A90039D3D8 /* LoadingScene.m */; };
+		4AEAC340180976A90039D3D8 /* MultiLayerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC334180976A90039D3D8 /* MultiLayerScene.m */; };
+		4AEAC341180976A90039D3D8 /* Referee.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC336180976A90039D3D8 /* Referee.m */; };
+		4AEAC342180976A90039D3D8 /* UserInterfaceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAC338180976A90039D3D8 /* UserInterfaceLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -419,12 +426,26 @@
 		4A1EB327180958F400C350A2 /* LICENSE_Kazmath.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE_Kazmath.txt; path = libs/LICENSE_Kazmath.txt; sourceTree = "<group>"; };
 		4A1EB329180958F400C350A2 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		4A1EB32A180958F400C350A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A1EB32C180958F400C350A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4A1EB32D180958F400C350A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A1EB32F180958F400C350A2 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		4A1EB330180958F500C350A2 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		4A1EB332180958F500C350A2 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		4A1EB333180958F500C350A2 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		4AEAC325180976A90039D3D8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AEAC326180976A90039D3D8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AEAC327180976A90039D3D8 /* BrickEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickEntity.h; sourceTree = "<group>"; };
+		4AEAC328180976A90039D3D8 /* BrickEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrickEntity.m; sourceTree = "<group>"; };
+		4AEAC329180976A90039D3D8 /* BrickLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickLayer.h; sourceTree = "<group>"; };
+		4AEAC32A180976A90039D3D8 /* BrickLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrickLayer.m; sourceTree = "<group>"; };
+		4AEAC32B180976A90039D3D8 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
+		4AEAC32C180976A90039D3D8 /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
+		4AEAC32D180976A90039D3D8 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		4AEAC32E180976A90039D3D8 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		4AEAC32F180976A90039D3D8 /* Linker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linker.h; sourceTree = "<group>"; };
+		4AEAC330180976A90039D3D8 /* Linker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linker.m; sourceTree = "<group>"; };
+		4AEAC331180976A90039D3D8 /* LoadingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingScene.h; sourceTree = "<group>"; };
+		4AEAC332180976A90039D3D8 /* LoadingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingScene.m; sourceTree = "<group>"; };
+		4AEAC333180976A90039D3D8 /* MultiLayerScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLayerScene.h; sourceTree = "<group>"; };
+		4AEAC334180976A90039D3D8 /* MultiLayerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLayerScene.m; sourceTree = "<group>"; };
+		4AEAC335180976A90039D3D8 /* Referee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Referee.h; sourceTree = "<group>"; };
+		4AEAC336180976A90039D3D8 /* Referee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Referee.m; sourceTree = "<group>"; };
+		4AEAC337180976A90039D3D8 /* UserInterfaceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInterfaceLayer.h; sourceTree = "<group>"; };
+		4AEAC338180976A90039D3D8 /* UserInterfaceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInterfaceLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,12 +506,26 @@
 		4A1EB19B180958F100C350A2 /* LinkLink */ = {
 			isa = PBXGroup;
 			children = (
-				4A1EB32C180958F400C350A2 /* AppDelegate.h */,
-				4A1EB32D180958F400C350A2 /* AppDelegate.m */,
-				4A1EB32F180958F400C350A2 /* HelloWorldLayer.h */,
-				4A1EB330180958F500C350A2 /* HelloWorldLayer.m */,
-				4A1EB332180958F500C350A2 /* IntroLayer.h */,
-				4A1EB333180958F500C350A2 /* IntroLayer.m */,
+				4AEAC325180976A90039D3D8 /* AppDelegate.h */,
+				4AEAC326180976A90039D3D8 /* AppDelegate.m */,
+				4AEAC327180976A90039D3D8 /* BrickEntity.h */,
+				4AEAC328180976A90039D3D8 /* BrickEntity.m */,
+				4AEAC329180976A90039D3D8 /* BrickLayer.h */,
+				4AEAC32A180976A90039D3D8 /* BrickLayer.m */,
+				4AEAC32B180976A90039D3D8 /* GameLayer.h */,
+				4AEAC32C180976A90039D3D8 /* GameLayer.m */,
+				4AEAC32D180976A90039D3D8 /* GameScene.h */,
+				4AEAC32E180976A90039D3D8 /* GameScene.m */,
+				4AEAC32F180976A90039D3D8 /* Linker.h */,
+				4AEAC330180976A90039D3D8 /* Linker.m */,
+				4AEAC331180976A90039D3D8 /* LoadingScene.h */,
+				4AEAC332180976A90039D3D8 /* LoadingScene.m */,
+				4AEAC333180976A90039D3D8 /* MultiLayerScene.h */,
+				4AEAC334180976A90039D3D8 /* MultiLayerScene.m */,
+				4AEAC335180976A90039D3D8 /* Referee.h */,
+				4AEAC336180976A90039D3D8 /* Referee.m */,
+				4AEAC337180976A90039D3D8 /* UserInterfaceLayer.h */,
+				4AEAC338180976A90039D3D8 /* UserInterfaceLayer.m */,
 				4A1EB19C180958F100C350A2 /* Resources */,
 				4A1EB1B4180958F100C350A2 /* libs */,
 				4A1EB328180958F400C350A2 /* Supporting Files */,
@@ -1061,9 +1096,16 @@
 				4A1EB324180958F400C350A2 /* vec3.c in Sources */,
 				4A1EB326180958F400C350A2 /* vec4.c in Sources */,
 				4A1EB32B180958F400C350A2 /* main.m in Sources */,
-				4A1EB32E180958F400C350A2 /* AppDelegate.m in Sources */,
-				4A1EB331180958F500C350A2 /* HelloWorldLayer.m in Sources */,
-				4A1EB334180958F500C350A2 /* IntroLayer.m in Sources */,
+				4AEAC339180976A90039D3D8 /* AppDelegate.m in Sources */,
+				4AEAC33A180976A90039D3D8 /* BrickEntity.m in Sources */,
+				4AEAC33B180976A90039D3D8 /* BrickLayer.m in Sources */,
+				4AEAC33C180976A90039D3D8 /* GameLayer.m in Sources */,
+				4AEAC33D180976A90039D3D8 /* GameScene.m in Sources */,
+				4AEAC33E180976A90039D3D8 /* Linker.m in Sources */,
+				4AEAC33F180976A90039D3D8 /* LoadingScene.m in Sources */,
+				4AEAC340180976A90039D3D8 /* MultiLayerScene.m in Sources */,
+				4AEAC341180976A90039D3D8 /* Referee.m in Sources */,
+				4AEAC342180976A90039D3D8 /* UserInterfaceLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1169,6 +1211,7 @@
 				4A1EB339180958F500C350A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
